@@ -1,0 +1,70 @@
+Alright, so today we’re going to have a look at virtual machines — what they are, why they’re useful, and how they work.
+
+First off, what exactly is a virtual machine?
+
+Imagine you have a Windows PC. The hardware inside — like the processor, RAM, storage — that’s the physical part of the computer. On top of that hardware, you run Windows, which is the operating system. It manages how applications use those hardware resources.
+
+Now, say you want to use Linux instead of Windows. Normally, you’d need another computer with Linux installed to do that. But what if you could run Linux right inside your Windows computer?
+
+That’s exactly what a virtual machine lets you do. It creates a sort of “computer within a computer” by using a piece of software called a hypervisor.
+
+One popular hypervisor you might have heard of is VirtualBox — it’s free, open source, and fairly simple to use.
+
+What VirtualBox does is it tells your Windows system, “Hey, give me some of your CPU, RAM, and storage.” Then it uses those to create a virtual computer where you can install and run Linux, Windows, or other operating systems.
+
+You can even run multiple virtual machines at the same time, sharing the hardware resources of your one physical computer.
+
+But keep in mind, you can only allocate as much hardware as your computer actually has. If your PC has 8GB of RAM and Windows uses 4GB, you only have 4GB left to split between all your virtual machines.
+
+Each virtual machine is completely isolated from the others. They don’t know they’re running inside another computer — they think they’re real machines.
+
+This isolation is great for safety. If one VM crashes or gets hacked, it doesn’t affect your main system or your other virtual machines.
+
+You can delete and recreate virtual machines easily without risking your main operating system.
+
+So, why would you want to use virtual machines?
+
+Well, if you’re learning about operating systems or software, you don’t have to buy a separate computer. You can just create a virtual machine on your own laptop and experiment safely.
+
+Developers use VMs to test applications on different operating systems and browsers without needing multiple physical devices.
+
+Say you develop on a Mac but want to see how your app runs on Linux with Firefox, or Windows with Internet Explorer. You can spin up virtual machines for each scenario.
+
+Now, let’s talk about hypervisors a bit more.
+
+There are two main types:
+
+Type 2 hypervisors — like VirtualBox — run on top of an existing operating system. You install VirtualBox inside Windows or macOS, and then create your virtual machines inside it. This is common for personal computers.
+
+Type 1 hypervisors run directly on the hardware, without a host OS. They control the hardware themselves and manage multiple virtual machines more efficiently.
+
+Examples of Type 1 hypervisors are VMware ESXi and Microsoft Hyper-V. These are used in big data centres and cloud providers.
+
+Big companies run their servers with Type 1 hypervisors, hosting lots of virtual machines on powerful physical servers.
+
+Cloud services like AWS, DigitalOcean, or Google Cloud provide virtual machines to users by dividing their physical servers into many isolated VMs.
+
+Each user’s VM is completely separate, so if one VM is compromised or crashes, it doesn’t affect others on the same hardware.
+
+One of the best things about virtualization is how it makes hardware usage way more efficient. Instead of having a bunch of underused physical servers, cloud providers can split one big server into lots of smaller virtual machines.
+
+Users can pick exactly how much CPU, RAM, and storage they want for their virtual machines, giving them great flexibility.
+
+Another huge benefit is portability.
+
+Virtual machines are basically files — images that contain the entire operating system and all the software installed on it.
+
+You can move these files around, make backups, or clone them to another machine.
+
+This means if your hardware fails, you don’t lose everything. You just run the VM image on another computer with a hypervisor installed.
+
+Before virtualization, servers were tightly coupled to the physical hardware. If a hardware part broke and couldn’t be replaced, the whole server was dead, along with all the software and data.
+
+With virtualization, the OS and apps are decoupled from hardware, making recovery and maintenance much easier.
+
+So, whether you want to be a cloud engineer, system administrator, software developer, or DevOps engineer, understanding virtualization is essential.
+
+Virtual machines are everywhere in IT nowadays — they’ve changed how we work with computers.
+
+Learning how to create, manage, and use virtual machines will definitely be a useful skill for your career.
+

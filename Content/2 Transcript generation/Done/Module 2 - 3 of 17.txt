@@ -1,0 +1,324 @@
+[4660,5160]
+Providesor.
+[9490,10620]
+And then we're gonna as.
+[12790,31380]
+In the next video we're gonna install a virtual box hypervisor and then we're gonna set up a linux a boon to virtual machine on it so if you have a windows machine or make or as like i do you can follow this tutorial to set up a linux which machine now be.
+[31060,51480]
+Here we start installing the betrayal bugs tool i want to mention that in case you have any issues during the installation i actually added a section where i go through some of the common issues that you may encounter during the installation especially depending on which operating system you're using and he's stalling.
+[51380,71920]
+The books on and you may find a solution that in this section i want to go through some of the common issues that may encounter during the installation and i wanna give you some options or alternatives to actually fix those issues or install or create your virtual machine in a different way first of all i want to start by.
+[71840,92080]
+Seeing that the main goal of the lecture is not to teach you how to use ritual box are generally how the virtual machine insulation works because you want actually be doing that so often as it develops engineer so you don't need that knowledge so much the main goal is to learn linux.
+[91880,112240]
+It's so having a linux machine available is actually the main focus of this lecture so you can follow along rest of the demos in this specific module throw the rest of the boat can would actually going to be working with clock platforms and creating virtual servers there so you won't be work.
+[111980,132400]
+King we've ritual machines look the after this module and this means if installing a virtual machine does not work or you have any issues during this process when you're following the demo that i'm showing you don't spend too much time on that you can either spin up a simple virtual machine on a club.
+[132560,152560]
+Platform which i actually teach in the cloud basics module and under the link exactly the module and of bt on number low this video so you can find it directly or if you don't wanna pay the clock platform jet and if you want to actually wait until we get to that module you can spin up.
+[152780,172720]
+A virtual machine for free on these online platform and you'll have a linux want to machine available through the browser and this is actually going to be the easiest option i will leave the link to these online platform below the video as well so you'll find all this information they're so recently find the easier.
+[172700,192550]
+Wait to get a linux machine and you're gonna be good to go if you already have a linux distribution and if you're working on a linux computer or laptop you don't need to install any bm at all you can skip this part of and you can do the demos in the following videos with the or linux operating system.
+[192590,212830]
+I also want to mention that this is actually a very common issue with any technology or tool and it's a common problem nineteen that we all have to do with called version compatibility so in this case you guys have different operating systems different versions of operating systems different hardware resources.
+[213350,233200]
+Etc so there is no one solution it's all you may or have to do this in different ways and virtual box is actually the most standard tool across all operating systems and that's why i selected it but it doesn't work for some specific cases for example the latest make a s version is not.
+[233420,247960]
+Supported yet i brutal bucks they will fix that in the future but for now it's not working so that's again a typical version compatibility issue where the one tool hasn't caught up with another tool yet.
+[248300,260710]
+So for those cases i want to suggest some alternatives to follow the demos without getting stuck here and interrupting your learning process so here are a couple of suggestions.
+[261200,281440]
+If you're on a windows machine and that demo that i'm showing you is not working for you for civil please make sure you have virtualization enabled in bios i will leave the resources below where he can see how that works for different windows versions and visual box is actually the best be.
+[281300,301180]
+Am tool for windows however you will need some resources on your computer and if you don't have enough cp you enough ram to allocate to be apple then i suggest you go with and less resource intensive option for example you can install w s l which is.
+[301640,321700]
+Windows subsystem for linux which will require way less resources and again i will leave the links below this video for guys of how to install w s l if you're on mac especially if you have the latest version of s operating system or if you have the.
+[321770,331510]
+Latest make hardware with in one ship the virtual box insulation is not gonna work for you so i suggest too easy and better alternatives.
+[331700,352240]
+The first one is installing u t m it's a virtual machine tool for make o s and another one which is called parlors they're both very easy to install and get started with and again i will leave all the links that show you how to install each one of them below this video and other issue.
+[352130,372400]
+With virtual box that some students also encountered is installing the extension pack that basically lets you copy and paste between host and the virtual machine so that part is not working or you're getting an air during the his leash and please check out the resource the.
+[372080,392380]
+I'm going to leave below this video for step by step guide of how to fix that a final note on resources as i also mentioned many of you have different hardware resources generally the more ram and cp you you allocate to your virtual machine.
+[392240,403240]
+The faster and more perform and it is so if you do have enough resources then increase ram and soup you for your b m when you are creating it.
+[404180,424150]
+But if you're working with limited resources for example windows operating system itself requires more resources than linux for example so windows machines are usually slower because they already use a lot of the resources so in that case you may have some resource limitation and.
+[424010,437350]
+As i suggested in that case please use some less resource intensive tool like w s l instead of the virtual box or the online platform where it can spin up a virtual machine.
+[437810,458080]
+Without having to install the locally so overall is a said pick the easiest option and continue with the demos i usually say that if something isn't working you should play around with it this way you learned the tool better but local virtual machine insulation is not that important have a use case so uk.
+[458172,476710]
+Stupid and go with some easy option like the online virtual machine so you can proceed with your learning so forcible we're going to need to download virtual box so in google search box i'm just going to type in virtual box download and we have this oracle virtual.
+[477500,478630]
+Box page.
+[479210,493930]
+And here you have the latest package for different operating systems so we have virtual box for windows of your windows know of this one i have mic o s and that's the package i'm going to download some going to click on install file.
+[495170,499330]
+And since is over one hundred megabytes it may take some time to install.
+[499940,502840]
+Great once that's done i'm just gonna click on that.
+[503960,512170]
+And this should present as we've of ritual box installation window and to install it i'm just gonna double click on it.
+[512840,520600]
+And we get these insulation wizard so we just gonna clean continue without change anything continue.
+[521210,527260]
+He tells you how much resources it's gonna need on your computer we're gonna do install and.
+[528380,529420]
+Allow installing.
+[531770,533980]
+An installation was successful.
+[534350,540490]
+And that means we have virtual box know install locally so we can use it.
+[542540,561520]
+Now if you're on make actually there is one thing that you may need to configure for the virtual box insulation to succeed so if you're installment actually failed in the security and privacy settings year you may have a prompt here that says.
+[561200,564550]
+As allow oracle america.
+[565070,585280]
+Basically to access your computer resources so you will need to allow that and then do the installation again soon i'm going to search for virtual box on my machine and you see that it is and salt have that application i'm gonna click on it and we should see this virtual box manager window so busy.
+[584953,600370]
+The we have this graphical user interface for ritual books to create the virtual machines and to manage them basically to change any settings on them to remove them to create them etc which of course makes it easy to work with virtual machines.
+[601280,609040]
+No one prerequisite that i want to mention gear when you're creating virtual machines on your computer.
+[610010,618250]
+Is the prerequisite of resources so you won't get no need at least four gigabytes of ram on your computer.
+[618920,639040]
+Because otherwise you may have some problems creating virtual machine because remember that we are sharing the hardware resources of the computer now a monk to computers right so you're operating system your host operating system right in this case mac is already using up some hardware resources and on top of that way.
+[638690,640570]
+Going to create another machine.
+[641030,644560]
+Which is gonna require it's own hardware resources.
+[645440,649600]
+And for you to buy to ram alex's really the lowest limits.
+[650270,652330]
+So make sure you have that on your computer.
+[653369,663980]
+So next step is to it actually prepare the environment for the virtual machine to be created and for that.
+[664500,666050]
+We're going to do new.
+[667140,674930]
+And we're gonna said all these up and since we're creating a linux virtual machine here let's call it denotes been too.
+[678240,687950]
+And you see that it basically intelligently detected from the name that i gave you that we want linux type of virtual machine here.
+[688920,692900]
+And version is a boon to sixty four bit.
+[694260,713900]
+And this is basically were virtual machine will create the folders for the virtual machine configuration and there is an option here to add an operating system eyes or image to install on the virtual machine we will leave this empty for know and upload the disk image after the be aim is created in.
+[713790,714740]
+Ritual books.
+[715080,726650]
+And here is basically where we assign the virtual machine hardware resources so this is gonna be a virtual rim that our linux the m will get.
+[727770,729350]
+And basically you can.
+[730350,750440]
+Adjust this but again know that these shows you the entire rim size that you have on your computer and i have to share some of that with a vm i'm going to increase the l kady memory here through four thousand ninety six megabytes which is around forgive us of memory which i'm going to give to my.
+[750600,770600]
+Linux vm it is also possible to allocate cb you resources to the virtual machine if you have enough computing power on your local computer you should actually lk for digger buys or for ram into super use to the virtual machine to avoid any performance issues and that is what i will do.
+[770490,790760]
+And then click next here will create a new virtual hard disk and we can adjust the ritual hard disk or hard drive space size assigned to our be in the default option i have here is twenty five gigabytes although it is possible to allocate as little as ten gigabytes i actually.
+[790950,810920]
+Recommend allocating at least twenty or even thirty you by of storage if you have enough space on your host machine there is an additional storage options shown by the checkbox year next to we located full size or this you live his boss unchecked the hypervisor will actually intelligently designed for.
+[810688,826670]
+Much stories your virtual machine needs and basically dynamically said it right so he doesn't need ten do both of storage is gonna allocate less if it needs more storage is gonna request war stories from the host operating system.
+[827070,841220]
+If you select free allocated full size does then it will be allocated the entire twenty five gigabytes and that's it we will leave the checkbox unmarked to said the storage to be dynamic and then click next.
+[841770,853850]
+The summary page will show you the settings to have chosen and you can click finish to create the which will machine awesome so i just see that we have linux on to operating system.
+[854130,874190]
+And we have all the settings your stored size etc displayed now would we did it is actually prepare and environments for linux virtual image to run all right so this is like a container so to say where we're going to install.
+[874740,881119]
+Linux operating system so we need to actually install linux operating system on these virtual machine.
+[881580,901880]
+And for that we're gonna need a linux operating system image just like you would take your laptop your physical laptop and if you wanted install linux a boon to or any of the distribution on it you would have this linux operating system image on and us be or a disc or whatever and he would attach the to your life.
+[901561,910700]
+Apt top and you would install that from that us be right the same way we need a linux image that we're going east all into our of yet.
+[911430,911930]
+And.
+[912630,921080]
+Those offering system images usually have dot easel extension ice oh and if i type in one too.
+[924300,924800]
+Downloads.
+[927510,943520]
+On this website here are going to dot com slash download you actually have all want to inflation images and here i was mentioned that virtual box and open to they're both free are generally linux is free.
+[943920,950900]
+So basically we don't need any type of lessons we can just download them and use them for free which is actually pretty amazing.
+[951660,960170]
+Because if you want to use windows for example if want his skull windows operating system in a virtual machine than you would have to have a windows license right.
+[960600,971119]
+So in our case we're gonna need or want to desktop because i want to have a graphical user interface in my a boon to insulation some gonna click on it.
+[971730,975440]
+And on this page we're seeing the one too.
+[976350,996440]
+Versions that we can download we have the latest one which is twenty two point ten and we have a slightly older version twenty two point four which has the letters l t s and the and so lt is basically stands for long term support and this means that this specific version is actually the one.
+[996000,1011110]
+You know which is which will be supported by the want to team or been to developers so usually want to download the versions that are supported by the developers have the technology and i'm just gonna click and download.
+[1011750,1015250]
+And it should start automatic and as i said.
+[1015800,1036280]
+It has the i s or extension so basically you could use this linux open to installation file to install linux on virtual machine but also on a physical laptop right so she wanted to install this on your computer the right.
+[1036170,1041290]
+Actually without the hypervisor you would actually use the same iso image.
+[1041810,1047230]
+And the ios or file ease or on three device which means it might take a while to download.
+[1048651,1050140]
+In of the into.
+[1051200,1053050]
+Installer on my laptop.
+[1053390,1057730]
+So we can actually use it know i'm gonna go back to my virtual box.
+[1058369,1058869]
+Window.
+[1059330,1079720]
+And if you click settings and then storage you're able to select the icon next to the optical drive to upload your operating system image to be installed so i'm going to click here and select choose disc file and we're going to select these i are so image that we downloaded once we have added this image week.
+[1079340,1081100]
+Can start the virtual machine.
+[1082160,1087640]
+And as see one to installation is actually starting.
+[1090651,1107050]
+And know we have this step by step installation died where you basically choose your language and different configurations like your time zone at cetera to install want to so we have english year we're going to do install one too.
+[1107720,1108670]
+And again.
+[1109160,1110320]
+Choose the language.
+[1110630,1119320]
+I'm going to choose german because that's my keyboard layout and continue i will leave everything on the defaults continue.
+[1120619,1140440]
+And here you see this warning that says that erase these any so on to option will basically deletes or your programs documents photos whatever in all a prince system now don't be afraid of this morning because the disk that these refers to it is actually.
+[1140180,1160600]
+The virtual disk that we allocated to our view right so our main operating systems these will not be affected this is really only the part that we allocated for vm which means that erasing the ritual this will not affect or mean host so you're into work here and reason you have this warning.
+[1160369,1180760]
+And it's also scary is because as i said this installation image is actually also for the physical computers right not only for virtual machine is selections so obviously on of physical machine where you're installing it on your own whole computer without a hypervisor then you may consider the warning that.
+[1180680,1200920]
+Everything will be erased on your computer in our case we are starting with a blank virtual disk anyways so it doesn't matter and i'm going to do install now and again we have this dialogue you really want to change or rewrite the taste to be really sure as i said this is just a virtual disk so go for it and continue.
+[1200510,1201010]
+You.
+[1201710,1203080]
+Thus medication.
+[1204920,1210190]
+And now we're going to create the linux user and fiscal is and upon to.
+[1211790,1212290]
+Password.
+[1216350,1220690]
+And i'm going to check logging automatically and continue.
+[1221960,1241720]
+And while it's installing and downloading different stuff it actually shows you all these things that you can install additionally like music players and some other applications but we're not going to need any of those and isn't mentioned previously this linux operating system that were installing now on bridge.
+[1241730,1253869]
+Machine doesn't actually know that it's on a virtual machine so everything that he does is exactly the same way as you would install linux operating system on an actual physical machine.
+[1254307,1256460]
+The steps are really the same.
+[1258390,1269090]
+So insulation completed and were actually good to go going to restart while the vm is restarting remove the disk image now that the installation is complete.
+[1269400,1278630]
+Click devices optical drive and remove and we should see a boon to desktop in our virtual machine window.
+[1280950,1284330]
+I'm going to do skip and next.
+[1287369,1290810]
+You need to confirm some settings year.
+[1291960,1293540]
+And we get your.
+[1294180,1299030]
+So basically have all these applications that are installed by default.
+[1300030,1303050]
+Including a firefox browser end.
+[1303750,1305240]
+The linux command line.
+[1305520,1326000]
+Now first of all you see that's the input output devices like of is the screen but also mouse and keyboard they're all responsive here so basically you are sharing this resources also between your main operating system so you can visit here but also inside the virtual machine however other than the s ever.
+[1325590,1346070]
+We think is completely isolated so whatever is running inside and whatever we're doing here is completely him in isolated from the host operating system so before we continue with linux less actually see saw the other options that we can set on a ritual machines from the virtual box.
+[1346020,1350300]
+So first of all if i want to shut down my virtual machine.
+[1350790,1351650]
+I have.
+[1352320,1372560]
+Several options one of them is saving the machine state so that means with basically whatever state you are in for example you have a browser open here with some tabs you have terminal window open maybe you haven't any two or were you are writing some code you can basically save that stay.
+[1372300,1374330]
+It's so all is open tabs.
+[1375480,1376490]
+Like this.
+[1378990,1386270]
+So after some time if you want to go back to your virtual machine and basically continue working then you can just click start.
+[1387150,1388580]
+And you're going to see.
+[1389760,1407270]
+Your virtual machine window exactly as you left it in other option is just hurrying off the machine which basically just shuts down your virtual machine it's basically just like shutting down your computer right doing a basic shut down here.
+[1407670,1428000]
+Another thing that may be very interesting especially if you're using the virtual machine to basic learned something you may want to be able to copy and paste between your host in the virtual machine and as a said the mouse and keyboard is active in both a default you can basically just copy attacks.
+[1428070,1439460]
+Kia and pasted in a virtual machine window it's not gonna work however you can actually enable that in the settings advanced.
+[1440099,1453170]
+And right here shared clipboard so you can basically said this so that you can only copy stuff from the host to the guest vice versa or you can do it by directional.
+[1455670,1473990]
+And as i said this will make it convenient if he wants to basically copy some commands a to have on your operating system any to or whatever and he wanted basically just paste in a terminal or if you have a lean that you want to open the browser here so then maybe.
+[1474150,1476990]
+Convenience saw michigan a select that.
+[1477900,1478940]
+And save it.
+[1480540,1486650]
+However for these by directional clean or sharing work the first have to install.
+[1486690,1488570]
+Something called an extension.
+[1489300,1490280]
+Original box.
+[1490831,1492830]
+So if you go back to his return.
+[1493500,1513440]
+Each we have for the same version that we'd stop her we have and be ambrosial box extension packs and there's one installer for all the platforms so we're going to click on that and download so basically it's a small extra package that let's you and some functional.
+[1513119,1516410]
+Adding to your for toolbox so i'm gonna click on it.
+[1516960,1518150]
+And stuff.
+[1520560,1523580]
+And agree on a licensing.
+[1526560,1544640]
+And there go the expansion pack was successfully installed however there is one final thing we need to do here so that the copy pasting can work some gonna open the virtual machine first and right here on the top you have a couple of options one of.
+[1544349,1558020]
+Damn is devices and here we have something called guest additions so guest additions package is actually a one specifically enabling base copy paste or drug drug functionality.
+[1558359,1561740]
+And if i click on insert guess additions to the image.
+[1562619,1568520]
+To run the installer script of the contents of the disk drive right click.
+[1569129,1573680]
+Auto run dog as h and select run as program.
+[1575970,1590869]
+Authentic aid so the guest additions installer rent we can click to return and if i click here you see this is the folder actually were all these runners and installers are located in we can unmarked it.
+[1593940,1599510]
+And now this actually test the functionality so i'm gonna copy.
+[1599940,1604700]
+The euro from my host and try to pasted right here.
+[1605522,1606500]
+And they're young.
+[1607020,1625490]
+And the same way you can paste comments from your host machine to the terminal so if i'm reading a tutorial and if i found some really large command that i don't want to tied in i can just copy it here are my host again back to the terminal haste.
+[1625859,1626869]
+And they go.
+[1627660,1632930]
+So that's how you set up clipboard sharing between the host and virtual machine.
+[1633810,1639230]
+This is very convenient if you're learning or testing out stuff in your b m.
+[1640440,1643010]
+Another thing which is also very interesting.
+[1643740,1663680]
+Is that by default virtual machine actually runs in it's own virtual network which is completely isolated from your hosts network right so your laptop your computer is running on your home network however the virtual machine is not in that same edward and if you actually.
+[1663280,1669740]
+He scanned all the devices on your whole network you won't see your virtual machine on it.
+[1670020,1690560]
+And the same way if someone access your virtual machines and network and basically hacked into it they won't be able to access your home network because again they're isolated which is good for security and that's how it said by default however you can also change that and basically and your virtual machine to the same network as your.
+[1690690,1695840]
+Host operating system so it's gonna get an ip address within the same network.
+[1696480,1699859]
+And you can change that settings the network tab here.
+[1700500,1710660]
+However we don't need that so we gonna leave that at the default and there are some other things that you can basically sheer between the host and the guest operating system.
+[1710970,1713239]
+Like shared folders etc.
+[1714180,1734000]
+Just know that when you start basically sharing stuff between the host and guest operating systems like sharing files and folders and basically is clipboard ensuring network in may be convenient because you may have use cases for that however in that case we're going to be making home.
+[1733528,1754160]
+I was in these isolation between the host and guess operating systems right which is great because they the guest operating system cannot affect the host the main operating system because they're completely isolated however if you start sharing resources then you are disrupting that complete isolation so.
+[1753810,1767720]
+Or just important to be aware of that saw with this type of sharing and settings you may be compromising security and aren't is the only thing we shared his clipboard and everything else will stay the same.
+[1769650,1783410]
+And since we have linux when to set up in the next video we're gonna go through beings operating system and learn some basics of each starting with the linux file system.

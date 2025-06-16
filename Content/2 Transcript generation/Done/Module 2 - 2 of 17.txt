@@ -1,0 +1,124 @@
+[5859,13890]
+These were going to see what virtual machines are in why are they so useful in all of a concept ritual is a.
+[14530,32220]
+What's will learn the concept of how which will she's work within a seat in action in the dim apart by creating a phoenix virtual machine on our computer using a popular open source software called virtual books we is actually very easy to do so let's get started.
+[33280,35220]
+What is a virtual machine.
+[35650,55920]
+Imagine you'd have a windows computer and as will learn the computer has hardware likes if you ran in storage so we would have windows operating system on top of that that controls however kitchens use these hardware resources and on top of the windows operating system occasions that top.
+[55810,58859]
+Two windows so everything's cool here.
+[59530,62550]
+Now what if you wanted to use linux instead.
+[63282,65190]
+For you work or maybe once.
+[66130,79560]
+New operating system for that you would need a machine with hardware resources in linux operating system on top of that and then you could run applications on that linux operating system.
+[79869,86190]
+So basically you wouldn't eat and other computer and a laptop where you would install that linux operating system.
+[86950,97109]
+Now what virtualization is is that to need a separate physical hardware or physical computer to install an operating system.
+[97270,117690]
+You can install the as operating system on top of the windows or with or vice versa you can sell windows or linux or windows and linux mac o s you can do any combination basically you can even do windows on windows or linux on linux and you can achieve that using something called a.
+[117430,118470]
+I provide.
+[119619,139440]
+Hypervisor is a technology that was in multiple virtual computers on it is a cool computer on top of the operating system that you're ready stop and one of the most popular hypervisor is of their is virtual box from oracle and one of the main reasons or it's popularity.
+[139030,147720]
+It is because it's open source and virtual box actually works on operating systems and is pretty easy to use some virtual box.
+[148119,168480]
+Let you create a virtual computer on your windows computer by telling the windows operating system it can i have some of your hardware resources that you manage to create a virtual cp new virtual ram virtual storage for my virtual computer and is said uk.
+[168550,175980]
+Have multiple virtual machines that are running on your computer through a hypervisor.
+[176770,197040]
+No note here that you can only give the virtual computer the hardware resources you actually have available on that computer if you have it gigabytes of ram and your windows is using four gigabytes and you give your brutal machine and other for the your bites then you have no ram left to be used for and.
+[196720,217200]
+Other virtual machine so we can create another one so basically know you are sharing the hardware resources of one machine to run multiple virtual machines so this means that as long as have one computer with one operating system using the hypervisor like virtual box you can install other operating system.
+[216850,235590]
+I'm on top of it but this virtual machines actually don't see each other and they're completely isolated so the ritual machine itself things that it is an independent computer it's the only one running on that computer doesn't even know that it's a virtual machine.
+[235840,239640]
+And it doesn't know that it's hosted on top of another room system.
+[240430,260400]
+And that separation is actually grade because if something happens to that virtual machine something breaks inside or someone hex inside that virtual machine it won't affect the main operating system the main always probably won't even know that the he and has some issues and he doesn't care.
+[261010,278010]
+So when this happens you can just delete that yeah i'm and create a fresh new one super easily know you're probably asking what is it actually good for what what is the usage or benefits of having a hypervisor in having virtual machines on your computer.
+[279280,291000]
+Versatile it's really great learning york ring systems so no you don't have to go and buy a new computer install linux on it you can basically just hosted on your windows machine if you want.
+[291700,312000]
+Maybe once you just experiment and play around with an operating system but it'll actually destroyed or danger your main operating system so you can quickly speed not a virtual machine you can play around with it and do all the stuff that you want and then once you're done with it you can just basically remove it and not agree.
+[311728,314040]
+Eight news case for virtual machines.
+[314530,334800]
+He's if you want to test an application like aware of the kitchen that you're developing many want to see how that works and how it looks like in different operating systems in different browsers so you may be developed on a mac o s laptop and you want to see how your application performs a linux machine of firefox browser.
+[334450,346109]
+Or and you may also want to see how your application runs on windows in internet explorer browser so you can create virtual machines or oath of these combinations.
+[346900,350850]
+In test replication there in when you're done you can just do with the.
+[354670,365640]
+And this type of hypervisor that i just described which is basically creating virtual machines on top of an existing operating system.
+[366280,386334]
+He's called a time to hypervisor so you have the host operating system or the main operating system which is already installed on the hardware on your machine on that operating system you install a hypervisor like virtual box right so some windows you install your virtual box and then using the virtual box you can.
+[386140,389310]
+The install just operating systems.
+[390040,397200]
+And the guess operating systems as i said we will or oh the hardware resources from the host operating system.
+[398230,406230]
+And the type to hypervisor is are typically used for personal computers for the use cases that i just described.
+[407050,427260]
+However for bleak servers that companies are using you have the second type of hypervisor which is type one hypervisor which actually words in in second the same way however the main difference here is that instead of installing a hypervisor on a host operating system he basically in so.
+[426880,447420]
+And directly on the hardware and that's why the type one hypervisor is are also called bare metal hypervisor is so the hypervisor actually controls the heart of a resources instead of talking to the host operating system whether it's can borrow their resources for it's virtual machines so it sits directly on top of that.
+[447550,467580]
+Hardware and controls every and so the popular examples of type one hypervisor is art the him where he has x i or microsoft hyper be and once installed basically the concept is the same as with type two hypervisor so you basically.
+[467320,487740]
+Just install any operating system on top of it so for big servers you have one physical server with a bare metal hypervisor installed on it and then you would have multiple virtual machines that are running on the hypervisor all sharing the same hardware resources and type one hypervisor mostly what the.
+[487270,507720]
+I was big companies and big club platforms actually use to create and run therefore infrastructure so when you create a serving since on o'clock platform like it'll be us or digital ocean or who code or whatever platform you're creating this virtual machines on a physical server.
+[507910,527880]
+In other users who create an instance may get a virtual machine on the same exact physical server is your virtual machine but as i said this be ems are completely isolated they don't know anything about each other so if something happens in one ritual machine if someone gets hacked was vm is on the same physical server.
+[527765,540180]
+You won't even know him because it should be an is running it's own isolated and right then or share net worth them share any resources that are share anything it completely independent from each other.
+[540550,560940]
+No either be some examples of why type two or also called hosted hypervisor is are useful right for using them on person computer but what are the use cases or the type one hypervisor is so what is basically the big advantage of companies going out there in using.
+[560560,563730]
+And these virtualization.
+[564250,584550]
+On their server serving structure one big advantage of using visualization and hosting multiple virtual machines on one physical machine is efficient usage of hardware resources because now you may have these perform and big servers.
+[584470,600660]
+On a cloud but you can actually or club provider can actually let the users who together any combination of resources they want in their instance by picking and choosing how much soup you how much ram how much storage they want.
+[601180,621660]
+So they have this flexibility of choosing her size of the instances because everything is ritualized read the ram and super your and storage so all of these resources or visualize so that's one big flexibility some know the club providers they can actually use up all their server physical sir resources by actually.
+[621430,627660]
+Lee dividing them into small pieces that are then used by virtual machines.
+[628208,647310]
+No there is one more very important benefit and basically transformation that happen in i t industry because of ritual is asian and that is basically abstracting away the operating system that is running on the hardware from the hardware itself.
+[647470,667980]
+And that obstruction actually it's a really good and let's see what so before virtualization when a company have a server like their own database server or a server were jenkins was running they would manage it themselves like install an operating system directly on it and then start installing applications on that operating system.
+[667690,688140]
+Like installing a computer jenkins or installing database application etc and when the operating system is installed directly on a hardware without that hypervisor layer in between that operating system is than tightly coupled to the hardware that means if the hard way.
+[688270,708300]
+Component of the computer failed like the party's exploded or other board failed whatever and you couldn't replace that component is maybe was an old server and you can find that component anymore or maybe was just not repairable anymore for whatever reasons it meant your whole computer would be useless and the reading says.
+[708130,712890]
+Damn in the looking shuns you install and configure it on it and all the data would be gone.
+[713440,723090]
+So relying on that one physical box meant one point of failure and therefore had a risk of losing all services running on that machine.
+[723820,743820]
+With virtualization however you have your operating system is a portable file that you can move around in his finals or ritual machine images so that portable file a teams who had the operating system all the plucky shows the browser applications that eddie tours junkie.
+[743500,755100]
+He's whatever of occasions you would usually assault on a operating system all the configuration files pictures documents basically everything would be inside that portable but.
+[756280,771810]
+And since it's a file just like a picture or a text document you can make copies of it and you can have backups of it which is amazing and really useful is specially for companies that means you could take your fortune he's.
+[772630,774330]
+Server operating system.
+[774730,792930]
+In hacking into these portable image were owner jake is richard on a plane is all your database he would be inside exactly as you configured it and you can make fitness of that image or fold snapshots writing would have written system.
+[793690,794190]
+Nationals.
+[794800,809730]
+No something happens to that brutally image where jenkins is running like you mess up jenkins conflagration or someone hacked into read or hardware braves you can simply take that snapshot of operating the image.
+[810280,830700]
+And simply running on a different computer we've hypervisor on it so when containing the a bring system in the kitchen mayor of it in a portable file you can secure your application and work they're easily and you can move it around sheen's without being dependent on any physical so.
+[830530,848040]
+Or so the virtual machines and the virtualization concept generally is very powerful and that's why you see everywhere in i t it has completely changed the way we weren't so whether you want to become a cloud engineer a system administrators software developer or debs engineer.
+[848440,862290]
+You need to understand the brutalization because you will be working with and you will be working with ritual she's so the skill that you're gonna learn here is going to be useful whatever job you're doing i feel.

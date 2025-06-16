@@ -1,0 +1,186 @@
+[4990,25200]
+What he's an operating system him a computer is made up of some hardware right you have the cp you memory storage you have input and output devices such as scream mouse keyboard and all the programs running on your computer me to use a beast hardware resources so how do you interact with this hardware company.
+[25090,45360]
+It's as the computer use of resemble you want to use the software application of like we formed prosser on your computer it will be to access the civil human a memory to process the data you will want to interact with it with most and keyboard and displayed on the screen so how does browser advocation know how to take most and keyboard input display.
+[45550,65520]
+Information on the screen or okay if you and memory to do it's job well it doesn't the applications myself to not actually know how to use hardware components and how to interact with it you can install crowd directly on a hardware because if you did then the browser application must have the code that can talk to each.
+[65350,85680]
+Every card report and the same way every other indication one one or computer will have to include some kind of code to talk to all hardware components and they would be extremely efficient because of every programmer for everybody should would need to implement all of it's so instead of these applications can all use an intermediary to talk to the hardware in the interview.
+[85390,105840]
+Here it is the computer's operating system operating system can interact with and control the hardware as well as interact with occasions so it's kind of the middleman between the two so comical you should will request memory to save some temporary data by asking the operating system he can get me some memory from hardware or when you click the icon.
+[105730,126000]
+To start application operating system will interpret your mostly until the browser execution to start again allocating resources likes of you and memory to so it's a translator between that would you shouldn't that run on your computer and the hardware that your computer is made up of also offering system will manage the failed usage of reese.
+[125860,145710]
+Sources among the conclusions so for example if cronies using a lot of resources or two and resources but he hasn't been active for a while and user opens safari then operating system will take away the resources from cruel and give those resources to safari so it hasn't intelligent logic to decide which avocation get how many resources.
+[145780,166260]
+And also a the isolates the contents of different religions so that they don't interfere with the others resources now let's see if be closer what are the tasks of an operating system and this can be grouped into several categories forcible operating system is responsible for don't kidding imaging the hardly resources.
+[166180,167730]
+Likes of you memory.
+[168490,187890]
+Storage and equal or could devices so the first one is process management that managing the cp you resources this is an example of activity monitor on a oh is that shows different processes running on a computer you have the screen flow recorder multiple google chrome resources.
+[188080,203160]
+And so on and each has it's share of cp you allocated to know what he's a process process is a small you need that executes on a computer new browser tab for example is a process starting intelligence is a process.
+[203470,206880]
+Or opening a new terminal window is a process.
+[207460,227760]
+Each process has it's own isolated space to execute so that they won't interfere with execution of each other these make sure things are great but also the processes are protected know that if a computer has once if you you can process only one process at a time so you may be doing many things at the same time like listen to music browsing.
+[227590,247920]
+Were riding a document working in your terminal but a sippy you once you in the background is processing or the once housed at each time the city you is just switching content so fast that you have an illusion of carmel or multitask processing however with reason to cannot belt made his were all know we have more.
+[247900,268062]
+Disappear which are multi core computers which are pretty much standard notice so their the terms like dual core of meaning to sit use or two processors are quite court in in core processors and of course the more processors or most of us have in your computer the faster the conclusions were worried because they can basically execute this was.
+[267640,286170]
+As these private read if of you running one process and other task is memory management meeting allocating working memory which is also called of him which sense for random access memory two different processes because whenever you start and execution but application need some data so that you can work.
+[286750,304440]
+You can't execute in program without ltd some memory to now working memory or rent is actually limited on hardware so if many causes these are running my computer he made use up all the memory because each running or active process least some memory so what happens when you run out of memory.
+[305290,324120]
+The operating system will handle smoking the memory between applications and will decide that whatever kitchen will become inactive by taking away the lt memory for me and new one will get the memory sources so even have fifty applications open in total consuming more memory than the computers total rent size.
+[324910,327480]
+Which between them is memory smoking will happen.
+[327730,333570]
+You shouldn't in slow down the computer because sorting it's time to what his memory swapping.
+[334120,354480]
+In this process for green system will unload the memory for his could clear that memory storage for that application and then save it into a second or a memory the storage and low the new processes data in that cleared memory and this clearing the data from the memory of saving it's you store.
+[354190,367320]
+Each and then loading the new data to that memory location actually take some time and slows down your laptop so basically that process or how memories ordinary to different processes his memory marriage.
+[367600,388080]
+Which is again one of the most crucial test of an operating system in the third me hardware components of the computer is storage which we just mention which is also called a second during them so you have the working memory it is for actively processing the data and then you have a second or memory or storage which is for persisting the data.
+[388090,408240]
+Want right and this is the hard drive have a computer so for example you open a visual studio code and you start writing some cash and some code inside why do you watch it while you're actually actively working on that code that data is loaded into memory and it's been process is you write the code now.
+[407980,428400]
+Once you're done with your application and you want to close middle pseudo code obviously you want to save all it's data and persistent on it does or mixed use but if part from the application that you're writing and files that you created in bureau studio digital studio occasion itself has some files that need story right for example the key.
+[428110,448560]
+Hold itself to run that that mceachran and have configuration of regional studio right maybe you configured seven plugins or themes extensions etc so these are all data that need to be persisted and started long term so whenever you open a visual record have all these configurations and plugins that you don't look so when you start the midwest your application.
+[448240,468720]
+On again the data from the storage will be loaded in memory to use it actively so an opening to have the planes and configuration files and eighty or just as you left it and you can save all sorts of things are your storage you can save files browser configurations games pictures videos whatever the although to start so so.
+[468430,472050]
+Whoring these data in l kidding some space for them.
+[472300,492720]
+He's also managed by princess system but know that operates essentially handles storing all this information is structured we saw your story do not just one big bucket where you throw all your data in it's actually structured in a meaningful way we what we call folders or directors in unix like systems like linux or mac.
+[492580,512880]
+Coerce for example the file system is structured in a tree for you have the root folder of the fastest on and have the sub directories you can be a little here it's a tree like your view of those folders and flats and then you have windows operating system which you'd have multiple would folders but again a hero to construct structural folders and files also there are.
+[512560,518370]
+We'll go through the past rock true and files of linux specifically in detail later in much.
+[518770,539280]
+So basically managing a storage and how they they store also a task of reduces in the last hit of or your piece of hardware components are the i already biased like money toward keyboard mouse trackpad but also devices like printers are you us be or external hard drive cetera so with these are attached to the computer operating system.
+[539470,559619]
+Knows how to handle them and how to translate interactions between applications and these devices and finally some other tasks of brings his don't was a very important and crucial test our security and networking in terms of security operating system is responsible for managing users and permissions you know that we can have multiple use.
+[559390,579780]
+Source on one computer and each user will have a password so they can log into the computer and have their own space where they can install applications save files and do whatever they wanted but users also have permissions you may have an end user on a computer that is allowed to administrate and have less privileged users who don't have that many permissions so that the.
+[579366,582390]
+You don't accidentally great something on the operating system.
+[582879,588420]
+And as a said networking like assigning ports and ip addresses said.
+[588580,592020]
+So all these are also tasks of and operating system.
+[592749,601050]
+The we understand what operating system is and what its tasks are let's see how an operating system is constructed or made up.
+[601900,622020]
+And the core operating system has a colonel like a linux kernel for exam this is the part of an operating system that bodes first when you turn on a computer this is the heart of every operating system responsible for managing the hardware company.
+[621999,625320]
+Audience begin secure memory right.
+[625629,641910]
+And different operating systems may have different kernels the colonel also handles i owe devices using various device drivers device drivers are basically code or programs which a low external devices.
+[642429,651330]
+To interact with your computer for example your printer many require a device driver on your computer so that you can read from your machine.
+[651820,672179]
+The same goals when you connect and external hard drive or us be to your computer kernel is the one actually ringing that external device into the computer so that you can use it so basically the colonel part of the printing system is billy you're interacting between the applications in the.
+[672189,674820]
+Hardware so when you start their to kitchen.
+[675309,690869]
+It's the colonel that started the process for that application loaded into memory and allocates cp you resources for example to that application and when you close the kitchen or resources will be cleaned up by the colonel.
+[691450,699570]
+And kernel is basically just a program written code which consists of device drivers and some other logic.
+[700360,708809]
+And then there is the application layer on top of the colonel for example the friend distributions of linux like.
+[709450,729780]
+Boon to linux mint center whereas db these are all the friend linux distributions which have different applications layers but are based on the same linux kernel so for example they have different color theme different icons the graphical user interface looks different.
+[729610,749939]
+And am also they have different applications her keychain inside the distribution like different fusion manager different programming languages as well as did friend command line interface compilers itself and other example of an operating system that is based on a linux kernel is in.
+[749890,768689]
+Droid and obviously different from all the leaves distributions android is first of all running on mobile phones right on a different hardware but also has a completely different application later were applications and items and everything is completely different.
+[769510,783150]
+So isn't see looks kernel is one of the most widely used ones because we have some in a mean exist russians plus we have enjoyed which is obviously very widely used operating system mobile devices.
+[783820,790410]
+On the other hand make o s and i always operating systems for base.
+[791855,801780]
+When used ones because we have something a linux distributions plus we have enjoyed which is obviously very widely used operating system for mobile devices.
+[802450,822660]
+On the other hand make o s an iowa is operating systems are based on a different colonel which is called darby again same colonel but different usually right obviously make oh as we know it's for person computers or laptops in iowa.
+[822340,824160]
+This is for mobile devices.
+[824950,844980]
+Apart from the desktop operating systems which are installed on person computer laptop or mobile device you also have these server operating systems right most of which are also based on linux but have much mean our application layer so it's more lightweight and performance.
+[844809,856590]
+For example the server operating system distributions usually do not have a graphical user interface or other user efficacious by browsers are players etcetera.
+[856929,876540]
+You just have a camilla interface to interact with them she so graphical user interface or mainland interface of have the kitchen they are is used to interact with the colonel which means colonel can't be accessible or can be used without the operating systems use a leader.
+[877480,897540]
+So to see all the layers we have described to with the enjoys example we have the hardware which is the phone which also has a sippy you memory and storage as well as a oh devices can have the always colonel on top of that wishes linux then.
+[897100,917700]
+You have operating system application layer which is android then you have user applications on top of android like android apps for example now of course we know there are three main operating systems for computers which are linux windows and mac o s and each operating system has.
+[917320,930900]
+As many versions because they evolve over time and get better in terms of usability security performance etc so the colonel stays the same but the application there is being developed an improved.
+[931749,941280]
+Also as a mention for linux and windows we have server operating systems and desktop or client operating system distributions.
+[942189,948030]
+So desktop or client operating systems power laptops or computers for personal use.
+[948429,952260]
+With a nice graphical user interface and iowa devices.
+[952809,972539]
+And computers are running applications that public can access are powered by server operating systems which usually have no graphical user interface or i owe devices we just log into them with command line and administer a computer like install and configure things from the command line.
+[973149,983460]
+So syrup or and systems are more lightweight and use a hardware resources more efficiently by running only the needed resources.
+[984700,1004580]
+Not that even though we have windows server operating systems over half of all the service worldwide are using linux as an operating system in for mexico as know that originally was called always eggs which later changed to make o s so it's us.
+[1004350,1006740]
+Same operating system would just have different me.
+[1007710,1027800]
+So to summarize basically operating system is powering all the devices like servers laptops phones printers every device a has hardware and applications on it needs these layer to be in between so i always enjoyed our operating systems android is based on linux meaning it uses.
+[1027690,1033590]
+Linux kernel while i o s like make o s is based on and darby colonel.
+[1034680,1054170]
+Now what important thing to note here is that when you work on make or linux the command line interface experience as well as some of the fall structure and how they're operating system works is pretty similar whereas windows is completely different from the to now.
+[1054210,1074659]
+Where does that similarly actually come from between linux and mac o s for that let's go back in time when unix was created unix was basically a code base for it many operating systems back then and even though he sounds very similar to linux he was created.
+[1075090,1088190]
+Independently from the next before linux action and he developed in many different ways resulting in many different flavors of operating systems that we're all to keep them comfortable with one another.
+[1088920,1101899]
+Or if it before midwest know that originally was caught on this x reach later changed to make o s so it's the same operating system would just different neat.
+[1102870,1122899]
+So to summarize basically operating system is powering all the devices like servers laptops phones printers every device as has work and if occasions on it needs these layer to be in between so i always enjoyed our operating systems android is based on linux meaning it uses.
+[1122850,1128750]
+Linux kernel while i o s like make o s is based on and darby colonel.
+[1129810,1149779]
+No one important thing to note here is that when you work on make or minutes the command line interface experience as well as some of the file structure and how the operating system works is pretty similar whereas windows is completely different from the to know where.
+[1149790,1170120]
+That similar and be actually come from between linux and mac o s for that let's go back in time when unix was created unix was basically a code base for many operating systems like that and even though he sounds very similar to linux he was created in.
+[1170070,1172940]
+Dependent the from the next before linux action.
+[1173159,1175850]
+And he developed in many different ways.
+[1176640,1196520]
+Resulting in many different flavors of operating systems that we're all based on unix mean they all had the source code from units and basically just built on top of that and one of those operating systems was make o s so makers colonel.
+[1196770,1216477]
+Darwin which i mentioned earlier actually include source code of one of the unix based systems making mecca was one of the most popular operating systems which came out of units and because many different operating systems were developed from unix and there were many different.
+[1216630,1236840]
+Of them to keep them compatible with one another standards were created for programs and applications that would run on this operating systems so basically the standard said that you for the weekend shouldn't is supposed to run on this operating systems it should implement these specific a pure.
+[1236550,1257000]
+As it should have these functions etc so that you could run this application on different operating system distributions that all came from units and one of the most popular standards which we still have to day is policies which sense for portable operating system interface.
+[1256649,1257149]
+His.
+[1257730,1277670]
+In parallel to unix based operating systems been developed mimics was created by linus torvalds as i said completely independently developed so it doesn't have any source units however this was based on the same philosophy and concept is units.
+[1278279,1298279]
+Means the nukes is not a version of unix but it's rather a clone of unix were also as often referred to is unix was so that means both linux and mac o s or today whole six compliance since whole six is a group of standards that detour.
+[1297855,1312649]
+I'm mean a portable a guy for unix like operating systems which they both are unix like operating systems and that's why they're so many similarities in the way.
+[1313380,1333560]
+Make o s and linux word for example the command line interface however kitchens one of them etc and as you know been axes were popular and is the mostly used operating system for servers but also for desktop computers among eighty professionals so knowing linux is definitely.
+[1333330,1343490]
+A must for a devil's engineer because many levels tasks actually involve working with servers in sewing and configuring stuff from them.
+[1343920,1364159]
+Also most of the technologies that are being developed today including the devils technologies like docker communities and ball at cetera they're all linux native technologies docker was originally only supported on linux for example and that's why in this module we will focus on learning the beers.
+[1364830,1384440]
+A boy to is the most popular linux distribution so we'll use a boon to in the suit or ill but the knowledge again with a boon to using it's commitment interface and interacting with it generally will be really not that different from any other billups distribute.
+[1384360,1384860]
+Shes.

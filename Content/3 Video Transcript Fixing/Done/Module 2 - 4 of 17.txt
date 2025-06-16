@@ -1,0 +1,69 @@
+I am.
+Who said of redux ritual she was actually take a look at how links works and will start by learning about meanings file system something that is briefly mentioned.
+Previous match for into into more detail.
+First of all reduce our system is a hierarchical tree structure we have the root folder just like tree root and inside the root folder we have a couple of folders which each has its purpose and inside those father's we have unfolded.
+As and files and the here teaches goes on like that in comparison the windows phone system does not have one deep folder we're in folders stem from would rather eat has multiple rude folders so it rude we haven't discs or drives this is from the early times actually way.
+When pcs only used in suitable floppy disks so windows used letters to assign drives for each in suitable disc so he in be for example where removable discs saw something that you would serve and then t all game and when hard drive was.
+It it to the pcs the next letter which was see actually became the litter for the internal these hard drive.
+And after that all the additional discs were given the next available litter and basically stayed mostly the same to the state so that's how file system works in windows computer to leaks.
+Known as actually look at the linux for system a linux itself first me in operating systems with graphical user interface will always have these graphical file system view right so this file explorer program that basically shows.
+This the folders and files and all these in graphical user interface although we can navigate them easily and when i opened that program by default i'm inside the home directory of my user the user that i am actually looked in which which is called none of right this is the user that we create so and.
+We use our unbeknownst will get its own folder basically on space inside the home directory and this is where i'm at and there are some default directories that are created for each user and you see the least of them right here we have the desktop folder documents download it so now this is a.
+Actually one of the folders in the root of the file system so how do we actually get to the root folder is that of being in our home directory if i click on other locations year and computer.
+And click on it you see that no i'm actually inside of the root directory right some inside the computer route and he said the root folder you see home directory and this is basically were all linux users spaces are located so each user will have it's own space in the whole.
+Directory except for the root user which actually has it's own isolated folder separate from all other users and then is the root directory right here so this is the home directory for a root user and this is the home directory for all other users so let's clear.
+Inside that home directory and you see that.
+I have a directory folder for my user with the user name and if i click inside you see that i go back to my default location right this is basically my users home space so this is one of the most important folder locations basically have to know it linux.
+And he works pretty similar other operating systems where every user basically has their own space and it's important to isolate them because most of the operating systems most of the computers actually support multi user on their systems right served have multiple users on your computer obviously you don't want to.
+Mess with each other's programs or settings or whatever so each user can have their own personal configuration for browser configuration for maybe an editor or maybe programs that only that user wants to use and so on and all of that happens in that users home directory.
+However in addition to the programs and files that only your user needs to see their also problems that has to be available system wide system i basically means installed on the computer which is automatically available to all the users right so they're not in a home directory.
+User they are basically available on the outer layer also outside the home directory and available for all the users of your computer and this could be applications or also commence linux commands that are available on the whole system and for all the users so where are they.
+Those actually located again going back to the root a computer.
+You see that we have bunch of other folders here in addition to hope.
+And let's actually start with folder been which stands for binary so if i click inside so beep folder inside the root directory contains the most basic men's you have available on your operating system.
+Some of these commands or for example cats which basically shows you the contents of a file user have cp which basically copies of file a call and so on so basically all these basic commands a use in the nooks they are all located.
+Or the binary files for those commands are all located in this been directory and that means that they're available systemwide for all the users but also to the system itself.
+Now what is binary exactly binary simply a format that computer on the since since that of text binary values are represented in the rose and once and that's what a computer can interpret soda execute a comment it must be in a by.
+I know reformat so computer can actually understand that coming and that's why all these comments that we use on.
+The commend mine are in binary fuss.
+And that's why they're in a folder called been which since we're by now and we're going to actually go through those basic commands in more detail in the next section.
+No going back to the roots we have another folder which is called sp right so this or binaries but for different commits this or system binaries again if i click inside you will see one show other comments.
+In the difference between the two is actually that these commands or system relevant that these comments actually need a super user permission to execute them sort of the commands are is you see it user so end users also.
+Setting passwords for those users are changing passwords.
+Doing network configuration with ip tables etc saw all these commands that you see here need super user privilege so you can't actually execute them with a normal user so this system been commands would be used by administrators to administer the system.
+But also by the system itself to run some comments and again we will see how to execute commands with a super years a privilege in the next section.
+And we also have these leap or library folders which basically hold the libraries for those binaries or for those comments right because they are just the executable spot if they need a library to do something else.
+Those libraries are actually located here so one program can actually be split.
+Into different locations having the executable files here and having the libraries here are the same way having the to cuticle.
+Binary files year and having the labour seared and as can have a common way of splitting the location of a program when you install them on linux.
+Now let's actually go to a folder called you it.
+And we also have these leap or library folders which basically hold the libraries for those binaries or for those comments right because they're just the executable spot if they need a library to do something else.
+Those libraries are actually located here so one program can actually be split.
+In two different locations having the executable files here and having the libraries here are the same way having the to get a bull.
+Binary files your a.
+Labour seared and that's can have a common way of splitting the location of a program when you install them on linux.
+Now let's actually go to a folder called us or which sense for user or regionally so this father was actually the user location before home directory was edit.
+And if you look inside the user folder we actually see the a bunch of folders however we have binary folder here as well.
+S binary or system binary folder as well and library or library folders so the same concept as as we saw on the root level but inside the user folder so what is this about and file click inside you actually see the same comments that were.
+He saw in the binary and the root folder.
+Here as well so we have the package manager command at for example cat command copy command eco answer once abyss the same cummins that we saw in the route folders binary full so what's going on here basically this is also a.
+Binary folder for all those comments and the same way if we look inside the sb we would see those administrator commence here read and they have their libraries basically located here and that actually has the historical reason or how these was designed or regionally in you.
+Unix so basically because of the limitations of a storage the split was made to store some of the binaries in the root folder binary or system binary folders and the rest of them in the user folder in the limitation was of course because in the time the story jays where my.
+Much more limited in size however says that limitation actually doesn't exist anymore now we have those binary files actually duplicated in those two places so the split doesn't make sense anymore however the concept still remains from the old times and that's why we have this.
+Duplicated binary is basically to know and be aware that when we execute those comments ls and copy and some basic commands whenever we execute them on a terminal they are usually.
+Executed from the user been folder.
+Another difference between those two locations or that on some operating systems the outer level in and s been folders actually contain less number of comments so they basically have just a handful of commence inside and then the user folder.
+Been in a spin would have much more commits so just be aware that those two are very similar so you have the system wide essential commands basically located in those two places now inside the user folder there is another folder cold local.
+And this local folder also has been as been and leap folders plus some other stuff in here the differentiation is actually pretty clear because this is a location where the applications that you as a linux user are installing yourself will actually go.
+Oh so that's where third party applications that you install on the system will be located for example is could be docker docker compose many que java or python whatever so this extra implications that you installed on your.
+This dumb will go here and that's why it's called local and a game is i said the application installation will be split into these different folders so if you're installing java for example the binary files of java commence will go here the libraries with.
+Go here the documentation will go somewhere else conflagration in another folder insulin and we're going to actually install some applications like java docker etc.
+Only nukes and we're gonna see that the installer or the package manager tool that we're going to use doing so that will automatically put the program files in these locations.
+And know it's again that the user folder is actually inside the woods.
+So everything that you install here in his local father will be available for all the users on your computer so these are going to be system wide application installations so if you're install docker here every user on your computer will actually have docker available in their homes space right so they will be able to access it when they log in to their account.
+All right so that's the basic understanding of the linux folder structure and how it works and also the difference between the root folder the user folders and what kind of files are located inside and finally i want to mention one more important folder inside the root directory which is called etc.
+Or configuration and these are the configuration files for the system.
+So all the settings and configuration files for the operating system are actually located in this directory.
+And the configuration files are usually text files that you can open with any editor and view the content and they are really really important for the system because they tell the system how to behave how to configure how to behave how to connect to the network which ip address to use and so on so on so the configuration is stored in text files and is located inside this folder and again this is system wide.
+Configuration for the whole operating system all right so this was a quick explanation of the linux folder structure and what's the purpose of each folder.
+I hope it was helpful.

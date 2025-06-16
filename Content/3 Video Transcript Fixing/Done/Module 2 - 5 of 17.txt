@@ -1,0 +1,43 @@
+That you've learned Linux file system, it's time to learn basic Linux commands that you can execute in a command line interface to work with that file system — to create folders, files, display information in your system, etc.
+
+So first of all, obviously, we have the graphical user interface, which is everything that you see right here.
+
+It's visual, it's graphical, and for a user, it is a simple starting point to interact with your operating system.
+
+You can open up the kitchen here, you can install new applications, you can create new folders, new files, etc.
+
+And everything that you can do in the graphical user interface, you can also do in a command line interface. The kitchen for displaying and working with command line interface is called a terminal, which, just like all these other applications here, is also an application which we can use.
+
+Then the number system and I'm actually gonna move this unnecessary stuff here so that we have that right on display. So graphical user interface and command line interface are basically two different interfaces that we, as operating system users, interact with the operating system.
+
+And on personal computers and laptops usually, we have a vote on servers you would get a command line interface and no graphical user interface. And that's why, as a devops engineer, since you're going to be working with servers, you need to have the skill and need to know how to work with command line interface. However, as
+
+we're going to see as we go along, working with command line interface also on your personal computer or laptop can actually be more convenient than just using the graphical user interface.
+
+So let's get started with it.
+
+Personal, what you see here is something called a terminal window. So we have a terminal application here.
+
+And just like you have browser tabs or browser windows, you have terminal windows and you can open as many of them as you want.
+
+And right here you see a line with a bunch of information. The first one here is the name of the Linux user that is currently logged in and using this terminal. I'm logged in as a user "nadeau" and that's why I actually see that information in the terminal. The second part here
+
+is the computer name. So whatever your computer is called — if it hasn't an automatically generated name or something that you named yourself — you will see that information right here.
+
+And with personal computers, obviously, mostly you would know these. However, when you're logging into a server, that's actually pretty convenient to know exactly which machine you're on and which user you are logged in as. For a server, this actually will be a host name of that computer.
+
+So in server environments, when you're doing stuff on multiple different servers and you may have ten different servers open, it's important to keep track of which computer you are executing different stuff on.
+
+After that, we have these characters here called tilde (~).
+
+Tilde is actually a shortcut to a home directory of the user. I'm in my "nadeau" user's home directory and that's the shortcut to my home, which is this character.
+
+And then we have a dollar sign ($), which means that you're working as a regular user on an operating system. You're not a super user; you're a regular user.
+
+If you're logged in as a root user and executing commands as root, then this will be a pound sign (#) instead of the dollar sign. And again, all this is very practical when working on several machines at once so that you don't forget and get confused about what status you are on each of those servers.
+
+Great, so this is actually an interface where you write commands for a computer to execute.
+
+So instead of creating a folder here, you would write a command for a computer to create a folder.
+
+Just.

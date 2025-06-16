@@ -1,0 +1,103 @@
+What is an operating system? A computer is made up of some hardware, right? You have the CPU, memory, storage, you have input and output devices such as screen, mouse, keyboard—and all the programs running on your computer need to use these hardware resources. So how do you interact with this hardware?
+
+As a computer user, for example, you want to use a software application like a web browser on your computer. It will need to access the CPU and memory to process the data. You will want to interact with it using mouse and keyboard and display it on the screen. So how does a browser application know how to take mouse and keyboard input and display information on the screen, or allocate CPU and memory to do its job?
+
+Well, the applications themselves do not actually know how to use hardware components and how to interact with them. You can't install Chrome directly on the hardware because if you did, then the browser application must have the code that can talk to each and every hardware component—and the same would apply to every other application. Each one would have to include some kind of code to talk to all hardware components, which would be extremely inefficient. Every programmer for every application would need to implement all of this.
+
+So instead, these applications can all use an intermediary to talk to the hardware. And the intermediary here is the computer's operating system. The operating system can interact with and control the hardware as well as interact with applications. So it's kind of the middleman between the two.
+
+So for example, your browser application will request memory to save some temporary data by asking the operating system: "Hey, can you get me some memory from the hardware?" Or when you click the icon to start an application, the operating system will interpret your mouse click and tell the browser application to start, again allocating resources like CPU and memory. So it's a translator between the applications that run on your computer and the hardware your computer is made of.
+
+Also, the operating system will manage the fair usage of resources among the applications. So for example, if Chrome is using a lot of resources but hasn't been active for a while, and a user opens Safari, then the operating system will take away some resources from Chrome and give those resources to Safari. So it has some intelligent logic to decide which application gets how many resources.
+
+It also isolates the contents of different applications so that they don't interfere with each other's resources.
+
+Now let’s dig a bit deeper—what are the tasks of an operating system? These can be grouped into several categories.
+
+First of all, the operating system is responsible for allocating and managing the hardware resources: CPU, memory, storage, and input/output (I/O) devices.
+
+The first one is process management, which means managing the CPU resources. This is an example of Activity Monitor on a macOS that shows different processes running on a computer: you have the screen recorder, multiple Google Chrome processes, and so on. Each has its share of CPU allocated to it.
+
+So what is a process? A process is a small unit that executes on a computer. A new browser tab, for example, is a process. Starting IntelliJ is a process. Opening a new terminal window is a process. Each process has its own isolated space to execute so they won’t interfere with each other. This makes sure things are protected.
+
+Now, a CPU can only process one process at a time. So you may be doing many things at the same time—like listening to music, browsing the web, writing a document, working in your terminal—but the CPU is processing only one task at a time in the background. It just switches contexts so fast that you get the illusion of multitasking.
+
+However, modern computers have multi-core CPUs, which is standard now. So terms like dual-core, quad-core, and octa-core mean that your computer has multiple processors. The more processors your computer has, the faster it will be, because it can execute more processes simultaneously.
+
+The second task is memory management, meaning allocating working memory (RAM – Random Access Memory) to different processes. Whenever you start and execute an application, it needs some memory to work. You can’t execute a program without allocating some memory to it.
+
+Working memory or RAM is limited. If many processes are running, your computer may use up all the memory, because each active process needs some. So what happens when you run out of memory?
+
+The operating system will handle swapping the memory between applications. It will decide that whatever application has become inactive can have its memory swapped out, and the new one will get access to RAM. Even if you have 50 applications open, consuming more than the computer’s total RAM size, memory swapping will happen.
+
+This swapping process can slow down your computer. The operating system will unload the memory for one application, save it to disk (secondary memory), and load the new process’s data into that RAM. This unloading and reloading takes time and causes the slowdown. That’s how memory is allocated to different processes—this is memory management, one of the most crucial tasks of an operating system.
+
+The third main hardware component is storage, also called secondary memory. RAM is for active processing of data, but you also have hard drives for storing data permanently.
+
+For example, you open Visual Studio Code and write some code. While working, that data is in RAM. When you’re done, you want to save the file—so it gets stored in permanent storage. Not only the code file, but also VS Code’s own files (like your plugin configurations, settings, themes) need to be stored so they can be retrieved later.
+
+When you open VS Code again, it loads the data from storage into memory so it’s ready to be used again. You can save all sorts of things to your storage: files, browser configs, games, pictures, videos—everything.
+
+Storing this data and allocating space for it is also managed by the operating system. The operating system stores all this information in a structured way. Your storage isn’t just a big bucket where data is thrown—it’s organized into folders or directories. On Unix-like systems (like Linux or macOS), the file system is structured as a tree with a root directory and subfolders. On Windows, there are multiple root folders. But the general idea of folders and files remains.
+
+We'll explore the file structure in Linux specifically later.
+
+So managing storage and how the data is stored is another task of the operating system.
+
+The last hardware components are the I/O devices: monitor, keyboard, mouse, trackpad—but also devices like printers, USB drives, and external hard drives. When these are attached to a computer, the operating system knows how to handle them and translate interactions between applications and those devices.
+
+Finally, two other very important operating system tasks are security and networking.
+
+In terms of security, the OS manages users and permissions. A single computer can have multiple users, each with their own password, environment, and permissions. Some users can be administrators; others are more restricted. This is to prevent users from accidentally breaking things in the OS.
+
+In terms of networking, the OS is responsible for assigning IP addresses, ports, and managing communication protocols.
+
+So now that we understand what an operating system is and what its tasks are, let’s see how it is constructed.
+
+At the core of the OS is the kernel—like the Linux kernel, for example. This is the part of the OS that loads first when you turn on your computer. It’s the heart of every OS, responsible for managing the hardware components.
+
+Different operating systems may have different kernels. The kernel also handles I/O devices using device drivers—code that lets external devices communicate with your system. Your printer may need a driver installed on your computer. Same with external hard drives or USBs.
+
+So the kernel is what actually makes it possible for your applications to interact with your hardware.
+
+When you start an application, it’s the kernel that loads it into memory and allocates CPU resources. When you close it, the kernel cleans everything up. And yes, the kernel itself is just a program, made up of code, device drivers, and logic.
+
+Then, on top of the kernel is the application layer. For example, Linux distributions like Ubuntu, Linux Mint, CentOS, or Debian all use the Linux kernel but have different application layers. These layers include things like UI themes, window managers, programming tools, and command line shells.
+
+Android is another example of an operating system based on the Linux kernel, but it has a completely different application layer tailored for mobile devices.
+
+So the Linux kernel is widely used—not only in Linux distributions but also in Android.
+
+On the other hand, macOS and iOS are based on a different kernel called Darwin. So macOS is for personal computers and laptops, while iOS is for mobile devices.
+
+Apart from desktop OSs, there are also server operating systems, many of which are Linux-based. These are more lightweight, often lacking graphical interfaces or media applications. Instead, you interact with them through the command line. That’s why server OSs are more efficient—they only run what’s necessary.
+
+Even though there are Windows-based server OSs, over half of all servers run Linux.
+
+Originally, macOS was called OS X, which later became macOS. It’s the same operating system with a different name.
+
+To summarize, an operating system powers all devices—servers, laptops, phones, printers. Every device with hardware and applications needs this intermediary layer.
+
+Android is based on Linux, meaning it uses the Linux kernel. iOS and macOS are based on Darwin. When you use Linux or macOS, the command-line interface (CLI) experience and file structure are very similar, whereas Windows is completely different.
+
+That similarity between Linux and macOS comes from Unix.
+
+Unix was a foundational codebase for many early operating systems. Even though it sounds similar to Linux, it was created independently before Linux, and it evolved into many different OS flavors that were compatible with each other.
+
+macOS’s Darwin kernel includes Unix source code, so macOS is one of the most popular OSs derived from Unix. Because so many Unix-based systems were created, standards like POSIX (Portable Operating System Interface) were introduced to ensure compatibility.
+
+Linux, meanwhile, was created by Linus Torvalds independently. It's not Unix, but a clone of Unix, often referred to as "Unix-like."
+
+So both Linux and macOS are POSIX-compliant and Unix-like, which is why their command line, tools, and file structures are so similar.
+
+Linux has become the most widely used OS for servers and is also popular among developers. Technologies like Docker, Kubernetes, and many DevOps tools are Linux-native.
+
+That's why in this module, we’ll focus on learning Ubuntu, the most popular Linux distribution. Using Ubuntu’s command line and interacting with it will prepare you well for working with any other Linux distribution.
+
+
+
+
+
+
+
+

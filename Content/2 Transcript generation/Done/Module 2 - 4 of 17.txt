@@ -1,0 +1,250 @@
+[0,210]
+I am.
+[8770,20940]
+Who said of redux ritual she was actually take a look at how links works and will start by learning about meanings file system something that is briefly mentioned.
+[20921,23910]
+Previous match for into into more detail.
+[27820,45360]
+First of all reduce our system is a hierarchical tree structure we have the root folder just like tree root and inside the root folder we have a couple of folders which each has its purpose and inside those father's we have unfolded.
+[45010,65520]
+As and files and the here teaches goes on like that in comparison the windows phone system does not have one deep folder we're in folders stem from would rather eat has multiple rude folders so it rude we haven't discs or drives this is from the early times actually way.
+[65410,85650]
+When pcs only used in suitable floppy disks so windows used letters to assign drives for each in suitable disc so he in be for example where removable discs saw something that you would serve and then t all game and when hard drive was.
+[85390,94500]
+It it to the pcs the next letter which was see actually became the litter for the internal these hard drive.
+[94990,108150]
+And after that all the additional discs were given the next available litter and basically stayed mostly the same to the state so that's how file system works in windows computer to leaks.
+[111598,129120]
+Known as actually look at the linux for system a linux itself first me in operating systems with graphical user interface will always have these graphical file system view right so this file explorer program that basically shows.
+[129130,149460]
+This the folders and files and all these in graphical user interface although we can navigate them easily and when i opened that program by default i'm inside the home directory of my user the user that i am actually looked in which which is called none of right this is the user that we create so and.
+[149079,169619]
+We use our unbeknownst will get its own folder basically on space inside the home directory and this is where i'm at and there are some default directories that are created for each user and you see the least of them right here we have the desktop folder documents download it so now this is a.
+[169599,185610]
+Actually one of the folders in the root of the file system so how do we actually get to the root folder is that of being in our home directory if i click on other locations year and computer.
+[186340,206579]
+And click on it you see that no i'm actually inside of the root directory right some inside the computer route and he said the root folder you see home directory and this is basically were all linux users spaces are located so each user will have it's own space in the whole.
+[206679,226740]
+Directory except for the root user which actually has it's own isolated folder separate from all other users and then is the root directory right here so this is the home directory for a root user and this is the home directory for all other users so let's clear.
+[226750,229619]
+Inside that home directory and you see that.
+[230290,249630]
+I have a directory folder for my user with the user name and if i click inside you see that i go back to my default location right this is basically my users home space so this is one of the most important folder locations basically have to know it linux.
+[250150,270300]
+And he works pretty similar other operating systems where every user basically has their own space and it's important to isolate them because most of the operating systems most of the computers actually support multi user on their systems right served have multiple users on your computer obviously you don't want to.
+[270849,290610]
+Mess with each other's programs or settings or whatever so each user can have their own personal configuration for browser configuration for maybe an editor or maybe programs that only that user wants to use and so on and all of that happens in that users home directory.
+[291369,310850]
+However in addition to the programs and files that only your user needs to see their also problems that has to be available system wide system i basically means installed on the computer which is automatically available to all the users right so they're not in a home directory.
+[311020,331139]
+User they are basically available on the outer layer also outside the home directory and available for all the users of your computer and this could be applications or also commence linux commands that are available on the whole system and for all the users so where are they.
+[331030,335909]
+Those actually located again going back to the root a computer.
+[337000,341130]
+You see that we have bunch of other folders here in addition to hope.
+[344380,361949]
+And let's actually start with folder been which stands for binary so if i click inside so beep folder inside the root directory contains the most basic men's you have available on your operating system.
+[362112,380280]
+Some of these commands or for example cats which basically shows you the contents of a file user have cp which basically copies of file a call and so on so basically all these basic commands a use in the nooks they are all located.
+[380559,392610]
+Or the binary files for those commands are all located in this been directory and that means that they're available systemwide for all the users but also to the system itself.
+[394030,413460]
+Now what is binary exactly binary simply a format that computer on the since since that of text binary values are represented in the rose and once and that's what a computer can interpret soda execute a comment it must be in a by.
+[412990,420329]
+I know reformat so computer can actually understand that coming and that's why all these comments that we use on.
+[420723,423690]
+The commend mine are in binary fuss.
+[424210,433290]
+And that's why they're in a folder called been which since we're by now and we're going to actually go through those basic commands in more detail in the next section.
+[436540,454260]
+No going back to the roots we have another folder which is called sp right so this or binaries but for different commits this or system binaries again if i click inside you will see one show other comments.
+[454990,474240]
+In the difference between the two is actually that these commands or system relevant that these comments actually need a super user permission to execute them sort of the commands are is you see it user so end users also.
+[474639,479040]
+Setting passwords for those users are changing passwords.
+[479860,498630]
+Doing network configuration with ip tables etc saw all these commands that you see here need super user privilege so you can't actually execute them with a normal user so this system been commands would be used by administrators to administer the system.
+[498790,508920]
+But also by the system itself to run some comments and again we will see how to execute commands with a super years a privilege in the next section.
+[512650,529860]
+And we also have these leap or library folders which basically hold the libraries for those binaries or for those comments right because they are just the executable spot if they need a library to do something else.
+[530199,536460]
+Those libraries are actually located here so one program can actually be split.
+[537130,544469]
+Into different locations having the executable files here and having the libraries here are the same way having the to cuticle.
+[545469,555240]
+Binary files year and having the labour seared and as can have a common way of splitting the location of a program when you install them on linux.
+[558849,562619]
+Now let's actually go to a folder called you it.
+[564940,582150]
+And we also have these leap or library folders which basically hold the libraries for those binaries or for those comments right because they're just the executable spot if they need a library to do something else.
+[582490,588780]
+Those libraries are actually located here so one program can actually be split.
+[589300,596760]
+In two different locations having the executable files here and having the libraries here are the same way having the to get a bull.
+[597760,599369]
+Binary files your a.
+[600040,607559]
+Labour seared and that's can have a common way of splitting the location of a program when you install them on linux.
+[611170,623849]
+Now let's actually go to a folder called us or which sense for user or regionally so this father was actually the user location before home directory was edit.
+[624130,634440]
+And if you look inside the user folder we actually see the a bunch of folders however we have binary folder here as well.
+[634960,655139]
+S binary or system binary folder as well and library or library folders so the same concept as as we saw on the root level but inside the user folder so what is this about and file click inside you actually see the same comments that were.
+[654670,658409]
+He saw in the binary and the root folder.
+[658900,679139]
+Here as well so we have the package manager command at for example cat command copy command eco answer once abyss the same cummins that we saw in the route folders binary full so what's going on here basically this is also a.
+[679240,699300]
+Binary folder for all those comments and the same way if we look inside the sb we would see those administrator commence here read and they have their libraries basically located here and that actually has the historical reason or how these was designed or regionally in you.
+[699280,719460]
+Unix so basically because of the limitations of a storage the split was made to store some of the binaries in the root folder binary or system binary folders and the rest of them in the user folder in the limitation was of course because in the time the story jays where my.
+[719230,739440]
+Much more limited in size however says that limitation actually doesn't exist anymore now we have those binary files actually duplicated in those two places so the split doesn't make sense anymore however the concept still remains from the old times and that's why we have this.
+[740260,753719]
+Duplicated binary is basically to know and be aware that when we execute those comments ls and copy and some basic commands whenever we execute them on a terminal they are usually.
+[755290,757679]
+Executed from the user been folder.
+[758380,778170]
+Another difference between those two locations or that on some operating systems the outer level in and s been folders actually contain less number of comments so they basically have just a handful of commence inside and then the user folder.
+[778179,798480]
+Been in a spin would have much more commits so just be aware that those two are very similar so you have the system wide essential commands basically located in those two places now inside the user folder there is another folder cold local.
+[799179,818760]
+And this local folder also has been as been and leap folders plus some other stuff in here the differentiation is actually pretty clear because this is a location where the applications that you as a linux user are installing yourself will actually go.
+[818440,836250]
+Oh so that's where third party applications that you install on the system will be located for example is could be docker docker compose many que java or python whatever so this extra implications that you installed on your.
+[837010,856949]
+This dumb will go here and that's why it's called local and a game is i said the application installation will be split into these different folders so if you're installing java for example the binary files of java commence will go here the libraries with.
+[856867,868530]
+Go here the documentation will go somewhere else conflagration in another folder insulin and we're going to actually install some applications like java docker etc.
+[869050,880889]
+Only nukes and we're gonna see that the installer or the package manager tool that we're going to use doing so that will automatically put the program files in these locations.
+[882159,887130]
+And know it's again that the user folder is actually inside the woods.
+[888099,908040]
+So everything that you install here in his local father will be available for all the users on your computer so these are going to be system wide application installations so if you're install docker here every user on your computer will actually have docker available in their homes space right so they will be able to use dog.
+[907690,928199]
+Her and same goes for job however on linux you can actually install applications only for your user which makes sense because maybe only you're interested in having doctor in other users on the same computer do not actually need docker so in that case you would install it indoor yeah.
+[928300,930090]
+Users ponder rectory.
+[934990,951000]
+Now there is in other location in the looks where the third party or external applications will be installed and that is this optional pulled in if i click inside for some would you say it's empty because we haven't in so.
+[950889,953820]
+Told any applications yet.
+[954010,974369]
+We just starting from an empty beer insulation so this folder is empty as well as user local been forthright we haven't installed any external applications yet so both of these locations are empty so what is a difference between these opt directory and user local directory.
+[974409,978690]
+The difference is that there aren't actually some applications.
+[979510,989849]
+That do not split their code or their files in in different directors like having the binaries in the been folder.
+[990460,996420]
+Libraries in leap holder etc these programs would install everything in one directory.
+[996940,1017240]
+And because of their there's this of or optional folder where such applications will be installed an example of such an application would be most of the i the east which are display code editors right for different programming languages so that would be actually installed in slash of work everything.
+[1016889,1030800]
+Will be one for the binary libraries documentation shared files that cetera this could also be for example web browsers that you install and so so that is a dedicated location or those type of applications.
+[1031559,1049909]
+Again whatever you install here will be system wide available for all the users so these are a sickly the most essential or most important directories in linux fastest in the but we also have some other ones that are also interesting so let's go through them very quickly.
+[1053010,1069380]
+For some all we have this would direct route which is basically foreboding the system and that means that we should never touch that this is actually a folder where we is users never do anything read this is exclusively for the system itself.
+[1069780,1090199]
+And if this point i want to mention that all folders that i showed you till now are actually read only folders right so when an application is installed for example it will go in this opt or use a local directory one so everything will be so once and after that there will be read or write you don't change the binary.
+[1090059,1092540]
+Files you don't change the libraries but said.
+[1096389,1098150]
+However there is a location.
+[1099030,1118429]
+The root directory where the system configuration is stuart this would be network interface configuration etc these could be the linux user data passwords so basically things that are right a not read only but we can change them and this configuration it look at it.
+[1118829,1135349]
+It is see or it cetera fuld regionally it was for it said romney everything else which was not here but it actually emerged into being the meme from figuration location.
+[1135750,1139760]
+Four different implications as i said or users.
+[1140730,1148670]
+Groups network configuration sarah so for example here to see my sequel so we have my support configuration here.
+[1149010,1151309]
+Who have python configuration.
+[1151920,1155510]
+And bunch of other thoughts on for on the recent files.
+[1156360,1162619]
+Other applications so all of them are located in one place which is the to see.
+[1166230,1183559]
+In other folder which is interesting is david folder which actually sensible device devices and this is where the devices that are connected to your computer will actually be stored saw a mouse keyboard money toward external.
+[1183690,1187130]
+Devices that you connect your computer like us it's it or.
+[1188429,1198199]
+Or the hard drive they would all be in this the location so all files that system needs to interact with these hardware basically will be.
+[1201869,1219170]
+When the operating system starts it actually looks some data and these logs or actually stored in a folder called are inside the local and that means if something went wrong or you want to see your system logs basically.
+[1219000,1226340]
+They're all the pleaded here we also have cash so basically all the cash data from europe occasions will be stored here.
+[1226829,1233780]
+And generally this far folder it is for storing logs from different processes that are run on your computer.
+[1237090,1241820]
+We also have a tim record the basically stores some temporary files.
+[1242070,1251900]
+Of cajuns so for example if an application in the background is doing some process and it needs to temporarily save the data to be written here.
+[1252840,1255290]
+And at some point they will begin to it.
+[1258750,1275599]
+Doesn't have media and all folders so media is basically we're your external media is wanted him to external hard drive to be a network drive for us speak when you plug that into your computer.
+[1275520,1281179]
+It will be automatically in the background actually mounted into this media folder.
+[1281520,1285380]
+And they will also be referenced in the devices folder.
+[1285990,1295490]
+And for manually mounting for example file systems to your operating system you have these long folder.
+[1295740,1305750]
+So is this and this happens automatically or if you want a minimally monde for example if file system to your operating system then you can use the mount folder for that.
+[1309059,1326840]
+No one thing to note here is that usually you will not be interacting with these folders right when you install it the kitchens using a package manager tool or installer whatever and winning interact with your operating system you will not be direct.
+[1326490,1346940]
+The updating this stuff here instead the kitchen installer or package manager told or the operating system itself will be actually updating the folders yeah right so is a said if you were in and recipe basically it will automatically be mounted in your system and then you will see basically the holders or files.
+[1346900,1351030]
+That you speak without you having to mount anything manually here.
+[1351370,1360540]
+And the same way when you change configuration your system that will automatically be updated in this configuration location in the if you see that cetera.
+[1360850,1381300]
+And when you install an application the package manager to for example which he used will handle putting the right us to right okay shuns track where everything is going so when you remove the package or application decently cleans up everything and it removes those files from all the different locations so you don't have.
+[1381100,1383910]
+To actually do anything manually here.
+[1384070,1391710]
+But if you're debugging or troubleshooting it's actually good to know where things are located so you know where to look for them.
+[1395230,1401910]
+And finally an important concept with a teacher file system is something called keaton flights.
+[1402220,1420540]
+To show you what that is let's head back to our users on the rectory and you see here we have folders was actually there's some other files and folders right here in this home directory of my user that you don't see by default.
+[1421060,1441300]
+And to see them we can actually go here in the settings options and shake show hidden files and you see those him files and folders displayed here so what are these the hidden files and folders are usually automatically generated by.
+[1441400,1459180]
+The kitchens and they all start we've got and that's why in unix operating systems the hidden files are also called got fights and different applications will automatically create them to store configurations and scrapes they need to execute etc.
+[1459490,1463470]
+For example right here you see a thoughts was ill a folder.
+[1464170,1478710]
+For the was he left firefox browser right so here my folks browser will actually store some configuration options as well as maybe application logs and generally data that that application would meet.
+[1479290,1495720]
+In addition to applications themselves generating these folders and klaus you also have operating system itself generating some of this holders and files specifically for your himself again we're in one specific users home directory.
+[1496120,1515430]
+And these are actually some of the files that hold the configuration for your user so if you have some user preferences that you've configured in your operating system only for your users they will be stored here you have this profile for a user we have cash.
+[1515830,1535830]
+What executions that you use in your user space will store some cash data the have configuration from different applications and operating system again specific to your user and this way every user can basically configure the operating system to their needs and have their own preferences.
+[1536200,1539850]
+Without interfering with each other and they will be all stored.
+[1540340,1553320]
+Right here so the difference is basically that this are automatically created files and folders either by the operating system or applications where you don't usually modify some stuff.
+[1553720,1573600]
+And the main purpose of hiding this fall by default is basically to have a cleaner overview when you're displaying your folders so you don't see bunch of automatically generated files and folders in each directory so basically just for cleaner visual display of.
+[1574090,1586350]
+Raptors and you have hidden folders in old operating systems and then use them in the same way so windows has been make always had some and obviously linux distributions of them.
+[1587260,1607350]
+And we're going to actually see the usage the actual usage of some of those files and folders in the mix sections and you as a user could also actually create him folders and fats if you needed to so when creating a folder a file is have to pretend.
+[1607540,1616410]
+Dot and then the screen name of the file or folder let's just click test and use get a note here that it's gonna be a hidden folder.
+[1616960,1618270]
+Create a.
+[1619090,1621660]
+Now if we hide them again.
+[1622000,1635610]
+You don't see here and we're going to see some specific cases where you would create a hidden while but as i said mostly they're automatically generated by program or operating system itself.
+[1641560,1642300]
+Now that.
